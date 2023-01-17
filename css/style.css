@@ -1194,6 +1194,10 @@ body::after {
   row-gap: 1.875rem;
 }
 
+._tab-spoller .info-product__navigation {
+  border: none;
+}
+
 .info-product__title {
   font-weight: 600;
   font-size: 1.25rem;
@@ -1224,6 +1228,10 @@ body::after {
 
 .info-product__content {
   padding: 1.875rem 0px 0px 0px;
+}
+
+._tab-spoller .info-product__content {
+  padding: 0;
 }
 
 ._tab-spoller .info-product__body:not(:last-child) {
@@ -3576,6 +3584,9 @@ body::after {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .actions-product__button-shop::before {
