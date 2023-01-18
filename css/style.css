@@ -2074,6 +2074,20 @@ body::after {
   padding: 1.25rem 1.875rem;
 }
 
+.header._header-scroll {
+  position: fixed;
+  top: -200%;
+  width: 100%;
+  z-index: 100;
+}
+
+.header._header-show {
+  -webkit-transition: top 0.5s ease 0s;
+  -o-transition: top 0.5s ease 0s;
+  transition: top 0.5s ease 0s;
+  top: 0;
+}
+
 .header__top {
   background-color: #141414;
   color: #fff;
