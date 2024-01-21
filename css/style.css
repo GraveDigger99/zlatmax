@@ -2075,7 +2075,6 @@ body::after {
 }
 
 .header {
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -2831,7 +2830,7 @@ body::after {
   background: url("../img/mian-block/main-block-bg.jpg") center/cover no-repeat; }
 
 .main-block {
-  padding-top: 15.625rem;
+  padding-top: 30px;
 }
 
 .main-block__body {
@@ -3658,10 +3657,6 @@ body::after {
 
 .page_catalog {
   padding-top: 1.875rem;
-}
-
-.page__header {
-  padding-top: 14.375rem;
 }
 
 .page__header:not(:last-child) {
@@ -4793,10 +4788,6 @@ body::after {
             flex-direction: column;
     gap: 1.875rem;
   }
-
-  .page__header {
-    padding-top: 11.25rem;
-  }
 }
 
 @media (max-width: 61.99875em) and (any-hover: hover) {
@@ -4889,10 +4880,6 @@ body::after {
 
   .delivery-info__form {
     width: 100%;
-  }
-
-  .page__header {
-    padding-top: 14.375rem;
   }
 }
 
